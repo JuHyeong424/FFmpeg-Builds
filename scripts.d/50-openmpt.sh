@@ -11,6 +11,7 @@ ffbuild_depends() {
 }
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET == winarm64 ]] && return -1
     return 0
 }

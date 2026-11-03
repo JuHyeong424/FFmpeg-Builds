@@ -4,6 +4,7 @@ SCRIPT_REPO="https://chromium.googlesource.com/webm/libwebp"
 SCRIPT_COMMIT="1844042d1ca751e62e61df7617dba19c98588339"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

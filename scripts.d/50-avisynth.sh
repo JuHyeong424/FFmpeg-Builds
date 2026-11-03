@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/AviSynth/AviSynthPlus.git"
 SCRIPT_COMMIT="523370a39933e2f9c208a5d74c1d35d43d177a76"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $VARIANT == lgpl* ]] && return -1
     return 0
 }

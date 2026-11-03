@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/Multicorewareinc/x265.git"
 SCRIPT_COMMIT="5143a2a00ad0cc600831654a248b96ec7307eb4a"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $VARIANT == lgpl* ]] && return -1
     return 0
 }

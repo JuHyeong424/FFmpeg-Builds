@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/KhronosGroup/SPIRV-Headers.git"
 SCRIPT_COMMIT="fbf86836a9b1966586faf7be7bb8a6440e156d62"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) > 404 )) || return -1
     return 0
 }

@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/njh/twolame.git"
 SCRIPT_COMMIT="6fced852d4d5cfad58cf9dbe3ea619b08e87d398"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

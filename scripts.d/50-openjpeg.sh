@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/uclouvain/openjpeg.git"
 SCRIPT_COMMIT="8314119b067c0fc77834731168daaebd379fdb12"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

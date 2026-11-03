@@ -4,6 +4,7 @@ SCRIPT_REPO="https://gitlab.freedesktop.org/xorg/lib/libxfixes.git"
 SCRIPT_COMMIT="55bb2d1d57d43e0595ce45393f26eb433d75a7cc"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET != linux* ]] && return -1
     return 0
 }

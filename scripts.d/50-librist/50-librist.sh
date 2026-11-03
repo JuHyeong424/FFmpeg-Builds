@@ -4,6 +4,7 @@ SCRIPT_REPO="https://code.videolan.org/rist/librist.git"
 SCRIPT_COMMIT="47ad5513d1aa0adb692d78f635512e7fa123f06e"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) >= 404 )) || return -1
     return 0
 }

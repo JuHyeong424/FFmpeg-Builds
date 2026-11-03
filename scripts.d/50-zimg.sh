@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/sekrit-twc/zimg.git"
 SCRIPT_COMMIT="67e0603271c080e22c8429856dd4a8a56587e61e"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

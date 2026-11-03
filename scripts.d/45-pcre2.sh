@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/PCRE2Project/pcre2.git"
 SCRIPT_COMMIT="be940c4eaec0bc4117e06e8f14e56bf82089be6b"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

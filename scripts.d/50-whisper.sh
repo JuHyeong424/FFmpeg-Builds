@@ -10,6 +10,7 @@ ffbuild_depends() {
 }
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET != *32 ]] || return -1
     (( $(ffbuild_ffver) >= 800 )) || return -1
     return -1

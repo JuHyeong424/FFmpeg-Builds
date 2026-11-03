@@ -4,6 +4,7 @@ SCRIPT_REPO="https://gitlab.freedesktop.org/pixman/pixman.git"
 SCRIPT_COMMIT="e7fd44140fe6edef507d54bdbc25c09543ffc936"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

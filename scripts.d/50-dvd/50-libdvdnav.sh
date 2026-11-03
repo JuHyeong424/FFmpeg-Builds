@@ -4,6 +4,7 @@ SCRIPT_REPO="https://code.videolan.org/videolan/libdvdnav.git"
 SCRIPT_COMMIT="8147ccd35e5aae4afdd21171cf7b6b4d8f179d28"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $VARIANT == lgpl* ]] && return -1
     (( $(ffbuild_ffver) >= 700 )) || return -1
     return 0

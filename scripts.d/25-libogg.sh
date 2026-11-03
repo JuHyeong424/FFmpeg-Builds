@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/xiph/ogg.git"
 SCRIPT_COMMIT="06a5e0262cdc28aa4ae6797627a783b5010440f0"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

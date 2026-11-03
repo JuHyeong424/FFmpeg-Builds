@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/libffi/libffi.git"
 SCRIPT_COMMIT="bc553867367246d140cd156f060bd0409f57f157"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

@@ -7,6 +7,7 @@ SCRIPT_REPO2="https://github.com/publicsuffix/list.git"
 SCRIPT_COMMIT2="8437e5262f13305f94087abe699b4fe2be1d1de8"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

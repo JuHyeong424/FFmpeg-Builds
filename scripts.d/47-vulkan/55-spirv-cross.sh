@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/KhronosGroup/SPIRV-Cross.git"
 SCRIPT_COMMIT="300681bbcb8365a8d1eacdacdbdd0249bbf1d6b1"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) > 404 )) || return -1
     return 0
 }

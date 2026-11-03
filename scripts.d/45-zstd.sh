@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/facebook/zstd.git"
 SCRIPT_COMMIT="49cf51799ea051457f57243527aa2058f999f005"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

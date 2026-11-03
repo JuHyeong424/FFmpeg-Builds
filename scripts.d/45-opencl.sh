@@ -7,6 +7,7 @@ SCRIPT_REPO2="https://github.com/KhronosGroup/OpenCL-ICD-Loader.git"
 SCRIPT_COMMIT2="5192c84f8059e5f703e5452929b613f9487f6e4c"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

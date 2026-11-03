@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/AcademySoftwareFoundation/openapv.git"
 SCRIPT_COMMIT="b4ff69856b4c3e8849df431ee3db54fd535f9bf3"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) > 701 )) || return -1
     return 0
 }

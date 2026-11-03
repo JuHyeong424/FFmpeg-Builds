@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/pkuvcl/davs2.git"
 SCRIPT_COMMIT="b41cf117452e2d73d827f02d3e30aa20f1c721ac"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $VARIANT == lgpl* ]] && return -1
     [[ $TARGET == win32 ]] && return -1
     # davs2 aarch64 support is broken

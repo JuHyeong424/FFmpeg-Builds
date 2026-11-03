@@ -11,6 +11,7 @@ ffbuild_depends() {
 }
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

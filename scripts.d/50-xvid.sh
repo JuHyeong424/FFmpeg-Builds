@@ -4,6 +4,7 @@ SCRIPT_REPO="https://svn.xvid.org/trunk/xvidcore"
 SCRIPT_REV="2204"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $VARIANT == lgpl* ]] && return -1
     return 0
 }

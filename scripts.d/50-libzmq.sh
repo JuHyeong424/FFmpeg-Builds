@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/zeromq/libzmq.git"
 SCRIPT_COMMIT="46493370217ac135246617fa2f6ac819d8b61bfc"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

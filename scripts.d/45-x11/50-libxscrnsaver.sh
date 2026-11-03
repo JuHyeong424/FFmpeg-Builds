@@ -4,6 +4,7 @@ SCRIPT_REPO="https://gitlab.freedesktop.org/xorg/lib/libxscrnsaver.git"
 SCRIPT_COMMIT="3f753e7a4050db083474444ae91cc17a849eaa4d"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET != linux* ]] && return -1
     return 0
 }

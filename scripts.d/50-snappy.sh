@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/google/snappy.git"
 SCRIPT_COMMIT="946606459314e55d029c85f9a8c46f8809467f0f"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

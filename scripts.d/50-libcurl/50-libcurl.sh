@@ -12,6 +12,7 @@ ffbuild_depends() {
 }
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) <= 900 )) && return -1
     return 0
 }

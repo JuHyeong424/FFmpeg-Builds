@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/google/shaderc.git"
 SCRIPT_COMMIT="2737994b552137a85545f956e303d620e6ff232c"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) > 404 )) || return -1
     return 0
 }

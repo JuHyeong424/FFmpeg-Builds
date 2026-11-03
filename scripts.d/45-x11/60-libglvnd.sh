@@ -4,6 +4,7 @@ SCRIPT_REPO="https://gitlab.freedesktop.org/glvnd/libglvnd.git"
 SCRIPT_COMMIT="c046a760d845416e98ac4128757b2b356c47fdaa"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET != linux* ]] && return -1
     return 0
 }

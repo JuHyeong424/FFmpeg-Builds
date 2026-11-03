@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/Netflix/vmaf.git"
 SCRIPT_COMMIT="f712fa7564fe49b12991d83920b83573af2ae063"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

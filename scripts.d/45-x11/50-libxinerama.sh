@@ -4,6 +4,7 @@ SCRIPT_REPO="https://gitlab.freedesktop.org/xorg/lib/libxinerama.git"
 SCRIPT_COMMIT="d7162b962710bc724b41cabab4e7cea303c4b541"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET != linux* ]] && return -1
     return 0
 }

@@ -9,6 +9,7 @@ ffbuild_depends() {
 }
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET != linux* ]] && return -1
     return 0
 }

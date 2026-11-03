@@ -4,6 +4,7 @@ SCRIPT_REPO="https://gitlab.freedesktop.org/xorg/proto/xorgproto.git"
 SCRIPT_COMMIT="6d3907b6d5dc4aa7d7ee6ee5d7d8714e7466630b"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET != linux* ]] && return -1
     return 0
 }

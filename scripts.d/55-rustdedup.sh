@@ -9,6 +9,7 @@ ffbuild_depends() {
 }
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     ( source scripts.d/50-rav1e.sh && ffbuild_enabled ) || return -1
     ( source scripts.d/50-librsvg/99-librsvg.sh && ffbuild_enabled ) || return -1
     return 0

@@ -4,6 +4,7 @@ SCRIPT_REPO="https://gitlab.freedesktop.org/xorg/lib/libxv.git"
 SCRIPT_COMMIT="f315ec50fcad9bdbaed46c3e78dc5e7fe209f933"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET != linux* ]] && return -1
     [[ $ADDINS_STR == *4.4* ]] && return -1
     return 0

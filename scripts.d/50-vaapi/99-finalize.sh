@@ -3,6 +3,7 @@
 SCRIPT_SKIP="1"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

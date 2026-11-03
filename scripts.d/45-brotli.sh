@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/google/brotli.git"
 SCRIPT_COMMIT="2e2bcf17ae7115d84ef6588d9a3651cc987d73e7"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

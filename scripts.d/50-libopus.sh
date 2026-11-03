@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/xiph/opus.git"
 SCRIPT_COMMIT="a8b2545eec71e0f53ecead2d583e7b6baa42684d"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

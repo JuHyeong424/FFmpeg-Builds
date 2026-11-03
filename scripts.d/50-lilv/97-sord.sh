@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/drobilla/sord.git"
 SCRIPT_COMMIT="4b5232bb91e7f2f1b84df384494d073fabbcd312"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

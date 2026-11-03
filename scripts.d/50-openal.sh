@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/kcat/openal-soft.git"
 SCRIPT_COMMIT="4a52288b772d1722713675f71bb30f321e78fd80"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) > 501 )) || return -1
     return 0
 }

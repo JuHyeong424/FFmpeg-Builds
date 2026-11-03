@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/lv2/lilv.git"
 SCRIPT_COMMIT="4b8f30055fa5cb4134a2eb45fc1555bc04289314"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

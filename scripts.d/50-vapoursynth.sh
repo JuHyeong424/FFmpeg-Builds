@@ -5,6 +5,7 @@ SCRIPT_COMMIT="R81"
 SCRIPT_TAGFILTER="R[0-9][0-9]"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     # Older FFmpeg links the VSScript library instead of loading it at runtime
     (( $(ffbuild_ffver) >= 701 )) || return -1
     return 0

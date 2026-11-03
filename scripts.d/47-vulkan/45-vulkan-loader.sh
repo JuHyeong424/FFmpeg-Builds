@@ -8,6 +8,7 @@ SCRIPT_COMMIT2="v1.4.366"
 SCRIPT_TAGFILTER2="v?.*.*"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) > 404 )) || return -1
     return 0
 }

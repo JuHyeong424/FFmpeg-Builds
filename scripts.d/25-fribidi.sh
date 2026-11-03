@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/fribidi/fribidi.git"
 SCRIPT_COMMIT="d2f3e1f4946e7cef9789e1c3ebdb4a60d4314c7f"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

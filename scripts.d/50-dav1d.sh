@@ -4,6 +4,7 @@ SCRIPT_REPO="https://code.videolan.org/videolan/dav1d.git"
 SCRIPT_COMMIT="b8b2d726b4b78a2fb174cb45baff441b5969672c"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) >= 404 )) || return -1
     return 0
 }

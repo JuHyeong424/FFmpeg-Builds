@@ -4,6 +4,7 @@ SCRIPT_REPO="https://gitlab.freedesktop.org/xorg/lib/libxcb.git"
 SCRIPT_COMMIT="d4e07bab5729c7d7cc3d2b95568cd9a661a53c4f"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET != linux* ]] && return -1
     return 0
 }

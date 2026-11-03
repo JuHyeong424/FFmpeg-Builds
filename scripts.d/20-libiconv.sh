@@ -9,6 +9,7 @@ SCRIPT_MIRROR2="https://github.com/coreutils/gnulib.git"
 SCRIPT_COMMIT2="5df606bbd0ef54a8f150c3303c870b9381a661f0"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

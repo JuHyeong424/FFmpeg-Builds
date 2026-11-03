@@ -4,6 +4,7 @@ SCRIPT_REPO="https://git.code.sf.net/p/soxr/code"
 SCRIPT_COMMIT="945b592b70470e29f917f4de89b4281fbbd540c0"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

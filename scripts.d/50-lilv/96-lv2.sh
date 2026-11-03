@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/lv2/lv2.git"
 SCRIPT_COMMIT="3c57dae600a5ad8d05acd53ee3490f7d91cb7be6"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

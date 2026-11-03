@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/BtbN/gmplib.git"
 SCRIPT_COMMIT="5c3e9a9d52b697cab7b7d26a53972a3bf922d59a"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

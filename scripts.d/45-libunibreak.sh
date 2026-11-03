@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/adah1972/libunibreak.git"
 SCRIPT_COMMIT="f8172fe771ef620112247cadfb876aecaa4f769e"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

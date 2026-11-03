@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/xiph/rav1e.git"
 SCRIPT_COMMIT="31435de9d76fddd38f6dcc31d4014574cebb2092"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET == win32 ]] && return -1
     return 0
 }

@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/drobilla/zix.git"
 SCRIPT_COMMIT="17d632393f5addb6fa24dda2927b96515407cca7"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

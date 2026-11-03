@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/harfbuzz/harfbuzz.git"
 SCRIPT_COMMIT="75d8ac5d2313842550174eaab0cbaf653c8f2f77"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

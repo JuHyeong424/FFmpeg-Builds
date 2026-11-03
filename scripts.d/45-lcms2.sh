@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/mm2/Little-CMS.git"
 SCRIPT_COMMIT="1112313b3784ced9297d8c0ee076aba17499827a"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) >= 501 )) || return -1
     return 0
 }

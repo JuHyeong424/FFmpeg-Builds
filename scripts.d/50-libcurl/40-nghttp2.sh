@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/nghttp2/nghttp2.git"
 SCRIPT_COMMIT="3baf9561e09f7ac8b0dce6e84132ce3909309ef0"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

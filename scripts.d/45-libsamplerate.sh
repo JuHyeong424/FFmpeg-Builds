@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/libsndfile/libsamplerate.git"
 SCRIPT_COMMIT="0844c208f683527c08ea8a80acc13b398aa9c8bf"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     return 0
 }
 

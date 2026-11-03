@@ -4,6 +4,7 @@ SCRIPT_REPO="https://github.com/v-novaltd/LCEVCdec.git"
 SCRIPT_COMMIT="741fb7c869cf61012f7dcebfcd9e56981198c78b"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     (( $(ffbuild_ffver) >= 800 )) || return -1
     [[ $TARGET != winarm* ]] || return -1
     return 0

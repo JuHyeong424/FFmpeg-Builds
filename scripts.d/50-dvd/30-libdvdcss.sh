@@ -4,6 +4,7 @@ SCRIPT_REPO="https://code.videolan.org/videolan/libdvdcss.git"
 SCRIPT_COMMIT="811ce97a1d4d1c9d936f4b2707f533a9ef768251"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $VARIANT == lgpl* ]] && return -1
     (( $(ffbuild_ffver) >= 700 )) || return -1
     return 0

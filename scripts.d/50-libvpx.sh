@@ -4,6 +4,7 @@ SCRIPT_REPO="https://chromium.googlesource.com/webm/libvpx"
 SCRIPT_COMMIT="900b2a52b69e9d4ab72eb855c365da1100c50eb1"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET == winarm64 ]] && return -1
     return 0
 }

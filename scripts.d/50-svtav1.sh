@@ -4,6 +4,7 @@ SCRIPT_REPO="https://gitlab.com/AOMediaCodec/SVT-AV1.git"
 SCRIPT_COMMIT="f2c3fb78611d542b12b11c6d10d3744b31b754a0"
 
 ffbuild_enabled() {
+    return -1  # DFGG: disabled
     [[ $TARGET == win32 ]] && return -1
     (( $(ffbuild_ffver) > 700 )) || return -1
     return 0
