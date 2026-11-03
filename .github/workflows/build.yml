@@ -94,6 +94,8 @@ jobs:
       - name: Get download cache key
         if: ${{ !cancelled() && !contains(matrix.runner, 'arm') }}
         id: dl_cache
+        env:
+          DOCKER_TAG_SUFFIX: -${{ env.ARCH }}
         run: |
           echo "dltagname=$(./util/get_dl_cache_tag.sh)" >> $GITHUB_OUTPUT
       - name: Cache
