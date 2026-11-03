@@ -106,6 +106,8 @@ jobs:
             download-cache-
       - name: Update Cache
         if: ${{ !cancelled() && !contains(matrix.runner, 'arm') }}
+        env:
+          DOCKER_TAG_SUFFIX: -${{ env.ARCH }}
         run: |
           set -e
           ./download.sh
