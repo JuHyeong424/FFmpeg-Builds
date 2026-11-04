@@ -7,8 +7,7 @@ FF_CONFIGURE+=" --disable-everything --disable-doc --enable-small \
  --enable-indev=lavfi \
  --enable-filter=gfxcapture,hwdownload,hwmap,format,fps,color,null,overlay,colorchannelmixer,scale \
  --enable-encoder=h264_nvenc,h264_amf,h264_qsv,h264_mf \
- --enable-decoder=h264,png --enable-parser=h264,png \
+ --enable-decoder=h264,png,wrapped_avframe --enable-parser=h264,png \
  --enable-demuxer=matroska,image2,png_pipe \
  --enable-muxer=matroska,mp4,null \
  --enable-protocol=file"
- --enable-decoder=h264,png,wrapped_avframe --enable-parser=h264,png \
