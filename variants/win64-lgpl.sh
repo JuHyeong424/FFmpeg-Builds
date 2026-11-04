@@ -11,3 +11,4 @@ FF_CONFIGURE+=" --disable-everything --disable-doc --enable-small \
  --enable-demuxer=matroska,image2,png_pipe \
  --enable-muxer=matroska,mp4,null \
  --enable-protocol=file"
+ --enable-decoder=h264,png,wrapped_avframe --enable-parser=h264,png \
